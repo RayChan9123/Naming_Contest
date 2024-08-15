@@ -18,10 +18,12 @@
   },
   "homepage": "https://github.com/RayChan9123/Naming_Contest_Repo#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "typescript": "^5.5.4"
   },
   "devDependencies": {
     "eslint": "^9.9.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "ts-node-dev": "^2.0.0"
   }
 }
