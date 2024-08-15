@@ -1,0 +1,27 @@
+{
+  "name": "naming_contest_repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RayChan9123/Naming_Contest_Repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RayChan9123/Naming_Contest_Repo/issues"
+  },
+  "homepage": "https://github.com/RayChan9123/Naming_Contest_Repo#readme",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "prettier": "^3.3.3"
+  }
+}
