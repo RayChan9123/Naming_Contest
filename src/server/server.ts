@@ -1,4 +1,7 @@
 import express from "express";
+import os from "node:os"
+import config from "./config";
+
 
 const server = express();
 
@@ -12,10 +15,13 @@ server.set("view engine", "ejs");
 //routes
 server.use("/", (req, res) => {
     res.render("index", {
-        title: "NAMING CONTEST REPO",
+        initialContent: "NAMING CONTEST REPO",
     });
 })
 
-server.listen("8080", "0.0.0.0", () => {
-    console.info("Listening on port http://0.0.0.0:8080");
+server.listen(config.PORT, config.HOST, () => {
+    console.info(
+        `Listening on port ${config.SERVER_URL}`,
+        `Free Mem: ${os.freemem() / 1024 / 1024}`,
+    );
 })
